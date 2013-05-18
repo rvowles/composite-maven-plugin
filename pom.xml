@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.bluetrainsoftware.parent</groupId>
-    <artifactId>central-parent</artifactId>
+    <artifactId>maven-plugin-parent</artifactId>
     <version>1.1</version>
   </parent>
 
@@ -36,7 +36,7 @@
       <exclusions>
         <exclusion>
           <groupId>commons-logging</groupId>
-          <artifactId>commons-logging</artifactId>
+          <artifactId>commons-logging-api</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
