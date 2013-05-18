@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.bluetrainsoftware.parent</groupId>
@@ -10,7 +9,7 @@
   <groupId>com.bluetrainsoftware.composite</groupId>
   <artifactId>composite-maven-plugin</artifactId>
   <packaging>jar</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
 
   <properties>
     <maven.version>3.0.4</maven.version>
@@ -20,6 +19,7 @@
     <connection>scm:git:git@github.com:rvowles/composite-maven-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:rvowles/composite-maven-plugin.git</developerConnection>
     <url>git@github.com:rvowles/composite-maven-plugin.git</url>
+    <tag>composite-maven-plugin-1.1</tag>
   </scm>
 
   <dependencies>
